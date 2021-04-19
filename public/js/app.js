@@ -16,7 +16,7 @@ console.log("Client file is loaded")
 //         }
 //     })
 // })
-
+// const an;
 const weatherForm = document.querySelector('form')
 const search = document.querySelector('input')
 const message1 = document.querySelector('#message-1')
