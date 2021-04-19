@@ -8,7 +8,7 @@ const forecast = (latitude, longtitude, callback) =>{
         } else if (body.error){
             callback('Unable to find', undefined)
         } else {
-            callback(undefined, 'The temperature is ' + body.current.temperature + '.The humidity is ' + body.current.humidity)
+            callback(undefined, 'The temperature is ' + body.current.temperature + '. The humidity is ' + body.current.humidity)
         }
     })
 }
